@@ -18,4 +18,12 @@ int _printf(const char *format, ...)
 		{NULL, NULL}
 	};
 	va_list arg_list;
+	
+	if (format == NULL)
+		return (-1);
+
+	va_start(arg_list, format);
+	char_counter = reader(format, f_list, arg_list);
+	va_end(arg_list);
+	return (char_counter);
 }
