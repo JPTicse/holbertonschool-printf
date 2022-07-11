@@ -57,3 +57,7 @@ int main(void)
     return (0);
 }
 ```
+
+## Autors
+| [<img src="https://avatars.githubusercontent.com/u/64811637?v=4" width=115><br><sub> Juan Ticse </sub>](https://github.com/JPTicse) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=115><br><sub>Franco Cardenas </sub>](https://github.com/gustavofranco26) |
+| :---: | :---: |
