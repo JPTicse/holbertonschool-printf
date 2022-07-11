@@ -17,5 +17,14 @@ struct functions
 };
 typedef struct functions get_function;
 
-/*Add functions Franco*/
+/*Main functions*/
+int reader(const char *format, get_function f_list[], va_list arg_list);
+int _printf(const char *format, ...);
+int _putchar(char);
+int print_c(va_list);
+int print_str(va_list);
+int print_percent(va_list);
+int print_int(va_list);
+/*Aux functions*/
+int print_number(va_list);
 #endif
