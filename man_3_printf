@@ -7,7 +7,28 @@ To use this function the #include "main.h" header is needed.
 .SH DESCRIPTION
 The _printf() function produces output according to a format which is described
 below. This function write its output to the stdout, the standard output stream.
-/*Part specifiers JP*/
+.SH USAGE
+To use _printf you have to use the following key characters preceeded by % letter.
+.RS 3
+.BI %c
+: To be used to print characters
+.RS 0
+.BI %s
+: To be used to print strings
+.RS 0
+.BI %%
+: A '%' is written.  No argument is converted.  The complete conversion specification is '%%'
+.RS 0
+.BI %d
+: To print integers of max and min size of an int type
+.RS 0
+.BI %i
+: To print integers of max and min size of an int type
+.SH RETURN VALUES
+The _printf() function returns an integer representing the number of characters
+printed excluding \\0 for the string.
+.SH SEE ALSO
+.I printf(3)
 .SH BUGS
 No known bugs.
 .SH AUTHOR
