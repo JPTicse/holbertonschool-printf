@@ -58,6 +58,25 @@ int main(void)
 }
 ```
 
+## Testing
+```
+$ ./a.out
+Let's try to printf a simple sentence.
+Let's try to printf a simple sentence.
+Length:[39, 39]
+Length:[39, 39]
+Negative:[-762534]
+Negative:[-762534]
+Character:[H]
+Character:[H]
+String:[I am a string !]
+String:[I am a string !]
+Percent:[%]
+Percent:[%]
+Len:[12]
+Len:[12]
+```
+
 ## Autors
 | [<img src="https://avatars.githubusercontent.com/u/64811637?v=4" width=115><br><sub> Juan Ticse </sub>](https://github.com/JPTicse) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=115><br><sub>Franco Cardenas </sub>](https://github.com/gustavofranco26) |
 | :---: | :---: |
