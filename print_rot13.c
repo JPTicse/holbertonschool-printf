@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rot13 - Converts string to rot13
+ * print_rot13 - Converts string to rot13
  * @list: string to convert
  * Return: converted string
  */
