@@ -6,6 +6,6 @@
  */
 int print_c(va_list list)
 {
-	_putchar(va_arg(list, int));
+	_putchar(va_arg(list, int));/*calling the function _putchar*/
 	return (1);
 }

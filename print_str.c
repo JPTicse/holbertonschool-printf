@@ -12,7 +12,7 @@ int print_str(va_list list)
 	str = va_arg(list, char *);
 	if (str == NULL)
 		str = "(null)";
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)/*Loop that go trough each character of the string*/
 		_putchar(str[i]);
 	return (i);
 }
