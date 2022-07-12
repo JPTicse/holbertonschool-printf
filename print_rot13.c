@@ -15,6 +15,7 @@ int print_rot13(va_list list)
 	str = va_arg(list, char *);
 	if (str == NULL)
 		return (-1);
+	/*Loop that go through string and change characters*/
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (x = 0; x <= 52; x++)

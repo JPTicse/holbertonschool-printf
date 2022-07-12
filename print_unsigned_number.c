@@ -15,6 +15,7 @@ int print_unsigned_number(unsigned int n)
 
     num = n;
 
+    /*Algorithm to split our number in parts and print each character*/
     for (; num / div > 9; )
         div *= 10;
 
