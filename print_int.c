@@ -8,6 +8,7 @@ int print_int(va_list list)
 {
 	int num_len;
 
+	/*Calling our aux function, see function print_number*/
 	num_len = print_number(list);
 	return (num_len);
 }
