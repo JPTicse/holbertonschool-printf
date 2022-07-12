@@ -16,6 +16,7 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{"d", print_int},
 		{"i", print_int},
+		{"R", print_rot13},
 		{NULL, NULL}
 	};
 	va_list arg_list;

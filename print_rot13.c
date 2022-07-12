@@ -13,6 +13,20 @@ int print_rot13(va_list list)
 	char u[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	str = va_arg(list, char *);
-	/*Add condition*/
+	if (str == NULL)
+		return (-1);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		for (x = 0; x <= 52; x++)
+		{
+			if (str[i] == s[x])
+			{
+				_putchar(u[x]);
+				break;
+			}
+		}
+		if (x == 53)
+			_putchar(str[i]);
+	}
 	return (i);
 }
