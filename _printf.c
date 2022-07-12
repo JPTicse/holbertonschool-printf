@@ -19,11 +19,11 @@ int _printf(const char *format, ...)
 		{NULL, NULL}
 	};
 	va_list arg_list;
-	
+
 	/*Validate input*/
 	if (format == NULL)
 		return (-1);
-	
+
 	va_start(arg_list, format);
 	/*Calling our reader function to get the function execute*/
 	char_counter = reader(format, f_list, arg_list);
