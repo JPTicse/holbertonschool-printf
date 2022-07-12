@@ -13,12 +13,15 @@ int reader(const char *format, get_function f_list[], va_list arg_list)
 	int i, j, check_print, char_counter;
 
 	char_counter = 0;
+	/*Loop to check our main string excluding the null value*/
 	for (i = 0; format[i] != '\0'; i++)
 	{
 		if (format[i] == '%')
 		{
+			/*Loop to go all through our structure up to match our specifier*/
 			for (j = 0; f_list[j].letter != NULL; j++)
 			{
+				/*Condition if the char next to % matches to any specifier in our structure*/
 				if (format[i + 1] == f_list[j].letter[0])
 				{
 					check_print = f_list[j].f(arg_list);
