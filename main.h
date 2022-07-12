@@ -25,6 +25,9 @@ int print_c(va_list);
 int print_str(va_list);
 int print_percent(va_list);
 int print_int(va_list);
+int print_rot13(va_list list);
+int print_uns_int(va_list list);
 /*Aux functions*/
 int print_number(va_list);
+int print_unsigned_number(unsigned int n);
 #endif
