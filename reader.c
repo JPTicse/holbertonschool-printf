@@ -45,6 +45,7 @@ int reader(const char *format, get_function f_list[], va_list arg_list)
 		}
 		else
 		{
+			/*In case a character does not match any specifiers, just print it*/
 			_putchar(format[i]);
 			char_counter++;
 		}
